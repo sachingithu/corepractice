@@ -1,5 +1,10 @@
 package com.svj.dao;
 
-public interface IEmployee {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.svj.model.Employee;
+
+public interface IEmployee extends JpaRepository<Employee, Integer>{
+	
 
 }
