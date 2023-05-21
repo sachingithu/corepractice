@@ -1,5 +1,7 @@
 package com.svj.service;
 
-public interface IEmployeeService {
+import com.svj.model.Employee;
 
+public interface IEmployeeService {
+	public void saveEmployee(Employee employee);
 }
