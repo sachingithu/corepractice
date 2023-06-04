@@ -9,5 +9,8 @@ public class EmployeeService implements IEmployeeService {
 		// TODO Auto-generated method stub
 		//Here add save employee logic
 	}
+	public void start() {
+		//writing logic for HIS-104
+	}
 
 }
